@@ -1,0 +1,68 @@
+/* global */
+* {
+    font-family: arial;
+    background-color: #88a371;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 5px;
+    margin: 16px;
+    font-size: 2em;
+    padding: .3em;
+}
+
+/* quiz box */
+#container {
+    display: flex;
+    flex-direction: column;
+    border: solid 5px;
+    margin: 1em;
+    padding: 1em;
+}
+
+#container > *{
+    margin: 2em;
+}
+
+#title {
+    font-size: 3em;
+}
+
+#text-box {
+    font-size: 2em;
+}
+
+/* button */
+button {
+    background-color: beige;
+    border: solid 3px;
+    padding: .3em .9em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button:hover {
+    border-color: blue;
+    color: blue;
+}
+
+/* scoring */
+#form {
+    font-size: 1em;
+}
+
+#submit {
+    font-size: 1.5em;
+    margin: 1.5em;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5em;
+}
