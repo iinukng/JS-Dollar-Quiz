@@ -27,7 +27,7 @@ header {
 }
 
 #container > *{
-    margin: 2em;
+    margin: 1.3em;
 }
 
 #title {
@@ -43,7 +43,7 @@ button {
     background-color: beige;
     border: solid 3px;
     padding: .3em .9em;
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: bold;
 }
 
@@ -58,7 +58,7 @@ button:hover {
 }
 
 #submit {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 1.5em;
 }
 
